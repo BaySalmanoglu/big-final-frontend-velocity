@@ -1,0 +1,113 @@
+.innovations {
+    .heading--line {
+        margin-bottom: 92px;
+    }
+    .heading--center {
+        text-align: center;
+    }
+    .heading {
+        position: relative;
+    }
+    .heading__title {
+        color: #c9ffc7;
+        
+    }
+}
+.heading__title {
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 8px;
+    font-size: 40px;
+    line-height: 56px;
+}
+.heading__text {
+    max-width: 680px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 32px;
+}
+.container-pages {
+    width: 960px;
+    max-width: 960px;
+    margin: auto;
+    .innovations__tabs {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+        overflow-x: auto;
+        ul.tabs {
+            border: 1px solid rgba(255,255,255,0.2);
+            border-radius: 8px;
+            .btn {
+                box-shadow: $shadow;
+            }
+        }
+        .tabs--pages {
+            margin-bottom: 40px;
+            .is-tab-active {
+                background-color: #3B4046;
+            }
+        }
+        .tabs {
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+
+.innovations .v-card--innovation {
+    background-color: #3B4046;
+    padding: 24px;
+    margin-bottom: 16px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+}
+.v-card:not(:last-child) {
+    margin-bottom: 32px;
+}
+.v-card {
+    box-shadow: $shadow;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    position: relative;
+    > *:first-child:not(.v-btn):not(.v-chip) {
+        border-top-left-radius: inherit;
+        border-top-right-radius: inherit;
+    }
+}
+.v-card-body {
+    display: flex;
+    flex-direction: column;
+    padding: 24px 0;
+    margin-left: 32px;
+    flex: 1 1 auto;
+}
+.v-card-title {
+    font-weight: 700;
+    color: #fff;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 0;
+}
+.innovations .v-card--innovation .v-card-text {
+    margin-bottom: 24px;
+}
+.v-card-text {
+    font-size: 14px;
+    line-height: 22px;
+}
+.v-card-button {
+    color: #C9FFC7;
+    line-height: 24px;
+    display: inline-block;
+    margin-top: auto;
+}
+.pagination {
+    justify-content: flex-end;
+    margin-bottom: 88px;
+    margin-top: 56px;
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+}

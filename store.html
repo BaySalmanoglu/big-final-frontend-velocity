@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="https://e7.pngegg.com/pngimages/223/101/png-clipart-question-mark-question-mark-thumbnail.png" type="image/x-icon" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/style.css">
+
+  <title>Mağazalar</title>
+
+<body>
+
+  <header class="header">
+    <div class="line-headerstatic">
+      <div class="container">
+        <div class="header-top-innerelements">
+          <div class="top-left-elements">
+            <a href="forbidden.html">
+              <span>Daşınmasına icazə yoxdur</span> </a>
+            <a href="index.html">
+              <span>Tez-tez verilən suallar</span></a>
+          </div>
+          <div class="top-right-elements">
+            <div class="header-currency">
+              <span class="cur-1"> 1 TRY - 0.20 AZN </span>
+              <span class="cur-2"> 1 USD - 1.70 AZN </span>
+            </div>
+            <a href="tel:+994123108707" class="header-phone-number">
+              <i class="icon-phone_two_tone"><span class="path1"></span><span class="path2"></span><span
+                  class="path3"></span></i>
+              <span>+994123108707</span>
+            </a>
+            <div class="header-lang-selector">
+              <select name="lang" aria-label="Default selection" id="" class="language-selector-dropdown">
+                <option value="/az" selected>AZE</option>
+                <option value="/en">ENG</option>
+                <option value="/ru">RUS</option>
+              </select>
+            </div>
+            <div>
+              <a href="/az/signup.html" class="btn btn--primary header-register-btn" title="">Qeydiyyat</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="header-bottom">
+        <nav class="header-navbar">
+          <a href="index.html" class="big-logo">
+            <img src="./assets/photos/logo/logo (1).svg" alt="Logo">
+          </a>
+          <ul class="nav-details">
+            <li class="navitem"><a href="about.html" class="nav-link">HAQQIMIZDA</a></li>
+            <li class="navitem"><a href="tariff.html" class="nav-link">TARİFLƏR</a></li>
+            <li class="navitem"><a href="services.html" class="nav-link">XİDMƏTLƏR</a></li>
+            <li class="navitem"><a href="store.html" class="nav-link">MAĞAZALAR</a></li>
+            <li class="navitem"><a href="news.html" class="nav-link">YENİLİKLƏR</a></li>
+            <li class="navitem"><a href="contact.html" class="nav-link">ƏLAQƏ</a></li>
+          </ul>
+
+
+
+        </nav>
+        <div class="nav-header-icons">
+
+          <a href="signin.html" class="user-header-icon">
+            <i class="icon-user_two_tone"><span class="path1"></span><span class="path2"></span><span
+                class="path3"></span><span class="path4"></span></i>
+            <span class="user-account" style="color: white;">Hesabım</span>
+          </a>
+          <a href="" class="user-cart-icon">
+            <i class="icon-cart"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span
+                class="path4"></span></i>
+            <span class="cart-count" style="color: white;">0</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+
+  <div class="heading heading--center heading--line">
+    <h2 class="heading__title">Mağazalar</h2>
+    <p class="heading__text">Türkiyə mağazalarını sizlərə yaxın etdik. Alış-verişin ən sərfəli ünvanı Velocity ilə
+      istədiyiniz mağazadan onlayn sifariş edin, biz çatdıraq.</p>
+  </div>
+
+  <div class="container">
+    <div class="tabs tabs--pages justify-content-center">
+      <a href="/az/store.html?country_id=" class="btn btn--tab btn--tab-pages js-calculator-tab-c is-tab-active">
+        <span class="d-block">Hamısı</span>
+      </a>
+      <a href="/az/store.html?country_id=2" class="btn btn--tab js-calculator-tab-c ">
+        <img src="./assets/photos/country-flags/Turkey.svg" alt="Türkiyə">
+        <span>Türkiyə</span>
+      </a>
+      <a href="/az/store.html?country_id=1" class="btn btn--tab js-calculator-tab-c ">
+        <img src="./assets/photos/country-flags/US.svg" alt="ABŞ">
+        <span>ABŞ</span>
+      </a>
+    </div>
+    <section class="shops d-flex">
+      <aside class="shop-side section-structure d-none d-lg-block">
+        <h2>Kateqoriyalar</h2>
+        <ul>
+          <li class="sidebar__list active">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <path opacity="0.3"
+                d="M5 4.99999H9V8.99999H5V4.99999ZM15 15H19V19H15V15ZM5 15H9V19H5V15ZM16.66 4.51999L13.83 7.33999L16.66 10.17L19.49 7.33999L16.66 4.51999Z"
+                fill="#fff"></path>
+              <path
+                d="M16.66 1.69L11 7.34L16.66 13L22.32 7.34L16.66 1.69ZM13.83 7.34L16.66 4.51L19.49 7.34L16.66 10.17L13.83 7.34ZM3 3V11H11V3H3ZM9 9H5V5H9V9ZM3 21H11V13H3V21ZM5 15H9V19H5V15ZM13 13V21H21V13H13ZM19 19H15V15H19V19Z"
+                fill="#fff"></path>
+            </svg>
+            <a href="/az/store.html?category_id=" class="sidebar__list-link"><span>Bütün kateqoriyalar</span></a>
+          </li>
+          <li class="sidebar__list ">
+            <i class="icon-car_two_tone"><span class="path1"></span><span class="path2"></span><span
+                class="path3"></span><span class="path4"></span></i> <a href="/az/store.html?category_id=1"
+              class="sidebar__list-link"><span>Avtomobil məhsulları</span></a>
+          </li>
+          <li class="sidebar__list ">
+            <i class="icon-child_two_tone"><span class="path1"></span><span class="path2"></span><span
+                class="path3"></span><span class="path4"></span></i> <a href="/az/store.html?category_id=2"
+              class="sidebar__list-link"><span>Uşaq məhsulları</span></a>
+          </li>
+          <li class="sidebar__list ">
+            <i class="icon-spa_two_tone"><span class="path1"></span><span class="path2"></span><span
+                class="path3"></span><span class="path4"></span></i> <a href="/az/store.html?category_id=3"
+              class="sidebar__list-link"><span>Kosmetika</span></a>
+          </li>
+          <li class="sidebar__list ">
+            <i class="icon-music_note"><span class="path1"></span><span class="path2"></span></i> <a
+              href="/az/store.html?category_id=4" class="sidebar__list-link"><span>Musiqi aksesuarları </span></a>
+          </li>
+          <li class="sidebar__list ">
+            <i class="icon-bubble_two_tone"><span class="path1"></span><span class="path2"></span><span
+                class="path3"></span><span class="path4"></span><span class="path5"></span><span
+                class="path6"></span></i> <a href="/az/store.html?category_id=5"
+              class="sidebar__list-link"><span>Multibrend mağazalar</span></a>
+          </li>
+          <li class="sidebar__list ">
+            <i class="icon-checkroom"></i> <a href="/az/store.html?category_id=6"
+              class="sidebar__list-link"><span>Geyim, ayaqqabı, aksesuarlar</span></a>
+          </li>
+          <li class="sidebar__list ">
+            <i class="icon-fitness_center"></i> <a href="/az/store.html?category_id=7"
+              class="sidebar__list-link"><span>İdman məhsulları</span></a>
+          </li>
+          <li class="sidebar__list ">
+            <i class="icon-local_laundry_service"><span class="path1"></span><span class="path2"></span><span
+                class="path3"></span><span class="path4"></span><span class="path5"></span></i> <a
+              href="/az/store.html?category_id=8" class="sidebar__list-link"><span>Məişət texnikası və
+                elektronika</span></a>
+          </li>
+          <li class="sidebar__list ">
+            <i class="icon-carpenter"><span class="path1"></span><span class="path2"></span></i> <a
+              href="/az/store.html?category_id=9" class="sidebar__list-link"><span>Ev və təmir üçün məhsullar</span></a>
+          </li>
+          <li class="sidebar__list ">
+            <i class="icon-game"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span
+                class="path4"></span><span class="path5"></span></i> <a href="/az/store.html?category_id=10"
+              class="sidebar__list-link"><span>Maraq və hobbi</span></a>
+          </li>
+          <li class="sidebar__list ">
+            <i class="icon-book"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span
+                class="path4"></span><span class="path5"></span></i> <a href="/az/store.html?category_id=11"
+              class="sidebar__list-link"><span>Kitab</span></a>
+          </li>
+          <li class="sidebar__list ">
+            <i class="icon-roofing"><span class="path1"></span><span class="path2"></span></i> <a
+              href="/az/store.html?category_id=12" class="sidebar__list-link"><span>Ev əşyaları</span></a>
+          </li>
+        </ul>
+      </aside>
+      <!-- COMPACT SHOP MENU  -->
+      <section class="menu-compact-2  section-structure d-lg-none">
+        <div>
+          <p>Kateqoriyalar</p>
+          <h6>Bütün kateqoriyalar</h6>
+        </div>
+        <i class="icon-input-down_two_tone"></i>
+      </section>
+      <!-- END COMPACT SHOP MENU   -->
+      <section class="brands">
+        <div class="brands-row owl-carousel owl-theme" id="brandCarousel">
+          <a href="https://www.hirdavatalet.com/"
+            class="shop-img flex align-items-center justify-content-center btn-cashback-url"><img
+              src="./assets/photos/store-logos/store-1.png" alt="Hirdavatalet"></a>
+          <a href="https://shopigo.com/"
+            class="shop-img flex align-items-center justify-content-center btn-cashback-url"><img
+              src="./assets/photos/store-logos/store-10.png" alt="Shopigo"></a>
+          <a href="https://www.cookplus.com/"
+            class="shop-img flex align-items-center justify-content-center btn-cashback-url"><img
+              src="./assets/photos/store-logos/store-2.png" alt="Cookplus"></a>
+          <a href="https://www.tuzun.com.tr/"
+            class="shop-img flex align-items-center justify-content-center btn-cashback-url"><img
+              src="./assets/photos/store-logos/store-3.png" alt="TÃ¼zÃ¼n"></a>
+
+        </div>
+      </section>
+    </section>
+
+
+    <nav aria-label="Page navigation">
+      <ul class="pagination">
+        <li class="page-item disabled"><span><i class="icon-chevron-left_two_tone"></i> <span
+              class="visually-hidden">Prev</span></span></li>
+        <li class="page-item  active"><a class="page-link" href="/az/store.html?page=1" data-page="0">1</a></li>
+      </ul>
+    </nav>
+  </div>
+
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 ">
+          <div class="heading">
+            <h2 class="heading__title">Kömək lazımdır?</h2>
+          </div>
+          <ul class="footer__contact">
+            <li>
+              <i class="icon-map-marker_two_tone icon-lg"><span class="path1"></span><span class="path2"></span><span
+                  class="path3"></span></i>
+              <a href="#"><span>Bakı şəh.,AZ1072, Nərimanov rayonu Koroğlu Rəhimov küçəsi Gəncə şəhəri Həsən Əliyev
+                  pr.75</span></a>
+            </li>
+            <li>
+              <i class="icon-email_two_tone icon-lg"><span class="path1"></span><span class="path2"></span><span
+                  class="path3"></span></i>
+              <a href="mailto: info@velocity.az"><span>info@velocity.az</span></a>
+            </li>
+            <li>
+              <i class="icon-phone_two_tone icon-lg"><span class="path1"></span><span class="path2"></span><span
+                  class="path3"></span></i>
+              <a href="tel:+994123108707"><span>+994123108707</span></a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <ul class="footer__nav">
+            <li>
+              <a href="/az/menu/dashinmasina-icaza-yoxdur-97.html">Daşınmasına icazə yoxdur</a>
+            </li>
+            <li>
+              <a href="/faq.html">Tez-tez verilən suallar</a>
+            </li>
+            <li>
+              <a href="/az/menu/gizlilik-siyasati-106.html">Gizlilik siyasəti</a>
+            </li>
+            <li>
+              <a href="/az/menu/istifadachi-razilashmasi-107.html">İstifadəçi razılaşması</a>
+            </li>
+            <li>
+              <a href="/az/menu/sifarish-et-qaydalari-108.html">Sifariş et qaydaları</a>
+            </li>
+          </ul>
+        </div>
+        <div class="social-icons d-md-none">
+          <a href="https://www.facebook.com/Velocityaz-110153937876363" target="_blank" class="social-icons__link"><i
+              class="icon-facebook"></i></a>
+          <a href="https://www.instagram.com/velocity.az/" target="_blank" class="social-icons__link"><i
+              class="icon-instagram"></i></a>
+          <a href="https://www.youtube.com/channel/UCx2nxoyQHRVqGR4Zefyp6Zg" target="_blank"
+            class="social-icons__link"><i class="icon-youtube"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>
+          <img src="./assets/photos/logo/logo-white.svg" alt="">
+          <p class="copyright">© 2021 Velocity LTD. Bütün hüquqlar qorunur</p>
+        </div>
+        <div class="social-icons d-none d-md-block">
+          <a href="https://www.facebook.com/Velocityaz-110153937876363" target="_blank" class="social-icons__link"><i
+              class="icon-facebook"></i></a>
+          <a href="https://www.instagram.com/velocity.az/" target="_blank" class="social-icons__link"><i
+              class="icon-instagram"></i></a>
+          <a href="https://www.youtube.com/channel/UCx2nxoyQHRVqGR4Zefyp6Zg" target="_blank"
+            class="social-icons__link"><i class="icon-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <script src="./assets/main.js"></script>
+  <script src="./assets/owl.js"></script>
+  <script src="./assets/select.js"></script>
+</body>
+
+</html>

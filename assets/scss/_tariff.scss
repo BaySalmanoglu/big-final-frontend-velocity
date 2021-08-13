@@ -1,0 +1,60 @@
+@import "tariffs";
+
+
+.p-0 {
+    .tab1-content{
+        .tariff{
+            .tariff:hover {
+                border-color: #c9ffc7;
+                i {
+                    color: #c9ffc7;
+                }
+            }
+        }
+    }
+    padding: 0!important;
+    .heading {
+        margin-top: 100px;
+        margin-bottom: 72px;
+        position: relative;
+    }
+    .heading--center {
+        text-align: center;
+    }
+    .heading__title {
+        margin-bottom: 16px;
+        color: #c9ffc7;
+    }
+    .heading__text {
+        max-width: 680px;
+        margin: 0 auto;
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .container-pages {
+        width: 960px;
+        max-width: 960px;
+        margin: auto;
+
+        .tabs--pages {
+            margin-bottom: 40px;
+        }
+        .tabs {
+            display: flex;
+            align-items: center;
+            .btn--tab {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 8px;
+                border: 1px solid rgba(255,255,255,0.2);
+                padding: 12px 15px;
+                min-width: 104px;
+            }
+        }
+        .tabs--pages .is-tab-active {
+            background-color: #3B4046;
+        }
+    }
+    
+}

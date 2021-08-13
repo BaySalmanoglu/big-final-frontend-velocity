@@ -1,0 +1,51 @@
+.container {
+    width: 1194px;
+    
+
+    .vlct-section {
+        margin-bottom: 88px;
+
+        .info__content {
+            background: url(/assets/photos/vector/Vector-news.svg) -130px no-repeat;
+            padding: 48px 48px 84px;
+            position: relative;
+            margin-top: 120px;
+
+            .heading {
+                position: relative;
+
+                .about .info__content .heading__title {
+                    margin-bottom: 32px;
+                    color: #c9ffc7;
+                    font-weight: 700;
+                    color: #fff;
+                    /* margin-bottom: 8px; */
+                    font-size: 40px;
+                    line-height: 56px;
+                }
+            }
+        }
+        .about-div {
+            max-width: 720px;
+        }
+        .section-structure {
+            background-color: #3B4046 !important;
+            border-radius: 8px;
+            box-shadow: $shadow;
+        }
+        .info__image {
+            margin-left: auto;
+            margin-top: -256px;
+
+            img {
+                border-radius: 8px;
+            }
+            .w-100 {
+                width: 100%!important;
+            }
+            .d-block {
+                display: block!important;
+            }
+        }
+    }
+}
